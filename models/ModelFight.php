@@ -326,8 +326,7 @@ class ModelFight implements SplSubject
             }
         }
         if ($first_unit_archers_damage>0 and
-            $this->getArchersCount($first_unit_army)>1 and
-            $first_unit instanceof Archers) {
+            $this->getArchersCount($first_unit_army)>1) {
             $second_unit->setHp($second_unit->getHp() - $first_unit_archers_damage /
                 self::ARCHERS_ATTACK_RATIO);
 
