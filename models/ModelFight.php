@@ -48,14 +48,12 @@ class ModelFight implements SplSubject
             $this->winner .= 'The German army wins!';
             $this->setStatisticStory("</br> ~ " . $this->winner);
             $this->notify();
-            $this->setStatisticStory(null);
         }
         else {
             $winner_army = $this->army_1;
             $this->winner .= 'The British army wins!';
             $this->setStatisticStory("</br> ~ " . $this->winner);
             $this->notify();
-            $this->setStatisticStory(null);
         }
 
         return $winner_army;
@@ -97,12 +95,10 @@ class ModelFight implements SplSubject
                 $this->setStatisticStory("</br> ~ " . $unit_2->getYourArmy() .
                     " " . $unit_2->getUnitType() . " refresh his first hit ability");
                 $this->notify();
-                $this->setStatisticStory(null);
             }
             $this->setStatisticStory("</br> ~ " . $unit_1->getYourArmy() .
                 " " . $unit_1->getUnitType() . " dies!<br/>");
             $this->notify();
-            $this->setStatisticStory(null);
             return $unit_1;
         } else {
             $unit_1->setFrags();
@@ -112,12 +108,10 @@ class ModelFight implements SplSubject
                 $this->setStatisticStory("</br> ~ " . $unit_1->getYourArmy() .
                     " " . $unit_1->getUnitType() . " refresh his first hit ability");
                 $this->notify();
-                $this->setStatisticStory(null);
             }
             $this->setStatisticStory("</br> ~ " . $unit_2->getYourArmy() .
                 " " . $unit_2->getUnitType() . " dies!<br/>");
             $this->notify();
-            $this->setStatisticStory(null);
             return $unit_2;
         }
     }
@@ -296,7 +290,6 @@ class ModelFight implements SplSubject
         $this->setStatisticStory("</br> ~ " . $first_unit->getYourArmy() .
             " " . $first_unit->getUnitType() . " makes critical hit!");
         $this->notify();
-        $this->setStatisticStory(null);
         return true;
         }
     }
@@ -316,7 +309,6 @@ class ModelFight implements SplSubject
             " " . $first_unit->getUnitType() . " hits " . $second_unit->getYourArmy() .
             " " . $second_unit->getUnitType());
         $this->notify();
-        $this->setStatisticStory(null);
 
         $first_unit_army = $this->armySearch($first_unit);
         $first_unit_archers_damage = 0;
@@ -333,7 +325,6 @@ class ModelFight implements SplSubject
             $this->setStatisticStory("</br> ~ " . $first_unit->getYourArmy() .
                 " archers make additional damage");
             $this->notify();
-            $this->setStatisticStory(null);
         }
         return true;
     }
