@@ -33,6 +33,5 @@ $statistic_watcher = new StatisticWatcher();
 
 $object_model_fight->attach($statistic_watcher);
 $winner_army = $object_model_fight->armyFight();
-$statistic_watcher->getResultStatisticText();
 
 require (ROOT.'/result.php');
