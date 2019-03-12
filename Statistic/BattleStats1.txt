@@ -1,0 +1,24 @@
+
+Battle begins!  
+ ~ German Pikeman hits British Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ British Pikeman hits German Pikeman
+ ~ German Pikeman hits British Pikeman
+ ~ British Pikeman makes critical hit!
+ ~ German Pikeman dies!
+
+ ~ The British army wins!
